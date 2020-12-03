@@ -44,12 +44,12 @@ files:
 hooks:
   AfterInstall:
     - location: scripts/install_dependencies
-      timeout: 900
+      timeout: 
       runas: root
     - location: scripts/start_server
-      timeout: 1900
+      timeout: 
       runas: root
   ApplicationStop:
     - location: scripts/stop_server
-      timeout: 1900
+      timeout: 
       runas: root
